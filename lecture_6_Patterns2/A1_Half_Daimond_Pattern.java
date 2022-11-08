@@ -23,20 +23,20 @@ public class A1_Half_Daimond_Pattern {
 		}
 
 //		           Loop 2
-//		for (int x = 1; x < n; x++) {
-//			System.out.print("*");
-//
-//			for (int r = 1; r <= n - x; r++) {
-//				System.out.print(r);
-//			}
-//			for (int e = 1; e < n - x; e++) {
-//				System.out.print(n - e - x);
-//
-//			}
-//			System.out.println("*");
-//		}
-//		System.out.print("*");
-//
+		for (int x = 1; x < n; x++) {
+			System.out.print("*");
+
+			for (int r = 1; r <= n - x; r++) {
+				System.out.print(r);
+			}
+			for (int e = 1; e < n - x; e++) {
+				System.out.print(n - e - x);
+
+			}
+			System.out.println("*");
+		}
+		System.out.print("*");
+
 	}
 
 }
